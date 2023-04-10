@@ -16,23 +16,35 @@
 <body>
     <header>
         <nav>
-
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 mb-3">
-                    <label for="tareaTexto" class="form-label">Tarea a realizar :</label>
-                    <input type="tarea" class="form-control" id="tareaTexto" aria-describedby="inputTarea">
-                    <div id="inputTarea" class="form-text">We'll never share your email with anyone else.</div>
+        <div class="agregar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 ">
+                        <label for="tareaTexto" class=" form-label"><h3 class="display-5">Tarea a agregar :</h3> </label>
+                        <input type="tarea" class="form-control" id="tareaTexto" aria-describedby="inputTarea">
+                        <div id="inputTarea" class="form-text"></div>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="ms-2 mt-5 p-4  btn btn-primary">Enviar</button>
+                    </div>
+                    </form>
                 </div>
-                <button type="submit" class="col-6 btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <div class="ms-2 mt-3 mostrar">
+            <h3 class="display-5"> Tareas a realizar: </h3>
+            <div class="row">
+                <div class="col-6 ">
+                </div>
+                <div class="col-6">
+                    <button id="borrar" type="submit" class="ms-2 mt-4 p-3  btn btn-primary">Borrar</button>
+                </div>
                 </form>
             </div>
         </div>
-        <form>
-
     </main>
     <footer>
 
