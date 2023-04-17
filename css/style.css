@@ -3,6 +3,10 @@ body{
     background-size: 500%;
     animation:animacion 10s infinite;
 }
+main{
+flex-grow: 1;
+min-height: 91vh;
+}
 @keyframes animacionFondo{
     0%{
         background-position: 0% 50%;
